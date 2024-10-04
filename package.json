@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "npm-run-all --parallel server client",
+    "server": "cd Backend && npm start",
+    "client": "cd Frontend/tinder_habilidades && npm run dev"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
+

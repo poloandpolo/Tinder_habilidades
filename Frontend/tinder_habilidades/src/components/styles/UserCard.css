@@ -1,0 +1,54 @@
+.user-card{
+    display: flex;
+    border: 2px solid black;
+    width: 85vw;
+    margin: 30px 0;
+}
+
+.user-card__name-wrapper{
+    width: 50%;
+    border: 1px solid red;
+    font-size: 20px;
+}
+
+.user-card__age-wrapper{
+    width: 10%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    border: solid 1px green;
+}
+
+.user-card__age-wrapper p{
+    margin: auto;
+    font-size: 20px;
+}
+
+.user-card__skills-wrapper{
+    width: 10%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 20px;
+}
+
+.user-card__skills-wrapper{
+    width: 20%;
+    border: 1px solid yellow;
+}
+
+.user-card__skills-wrapper p{
+    margin: 10px;
+}
+
+.user-card__price-wrapper{
+    display: flex;
+    text-align: center;
+    border: 1px solid pink;
+    width: 20%;
+}
+
+.user-card__price-wrapper p{
+    margin: auto;
+    font-size: 30px;
+}
